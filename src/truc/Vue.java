@@ -11,6 +11,7 @@ public class Vue extends Button implements Observer {
 		super();
 		this.setLabel("0");
 		this.setPreferredSize(new Dimension(120,50));
+		this.setSize(120, 120);
 	}
 
 	@Override
