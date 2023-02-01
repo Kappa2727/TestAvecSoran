@@ -9,7 +9,7 @@ public class Application extends Frame implements WindowListener {
 	public static void main(String[] args) {
 		new Application();
 	}
-	
+
 	public Application() {
 		super();
 		
@@ -18,7 +18,7 @@ public class Application extends Frame implements WindowListener {
 		Vue vue = new Vue();
 		modl.addObserver(vue);
 		vue.addActionListener(ctrl);
-		
+		this.addWindowListener(this);
 		this.add(vue);
 		this.pack();
 		this.setVisible(true);
@@ -33,13 +33,12 @@ public class Application extends Frame implements WindowListener {
 	@Override
 	public void windowClosing(WindowEvent e) {
 		// TODO Auto-generated method stub
-		
+		System.exit(0);
 	}
 
 	@Override
 	public void windowClosed(WindowEvent e) {
 		// TODO Auto-generated method stub
-		
 	}
 
 	@Override
