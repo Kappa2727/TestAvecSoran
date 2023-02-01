@@ -20,6 +20,7 @@ public class Application extends Frame implements WindowListener {
 		vue.addActionListener(ctrl);
 		
 		setLocationRelativeTo(null);
+		this.setTitle("Les saucisses");
 		
 		this.addWindowListener(this);
 		this.add(vue);
