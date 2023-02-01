@@ -20,6 +20,7 @@ public class Application extends Frame implements WindowListener {
 		vue.addActionListener(ctrl);
 		
 		setLocationRelativeTo(null);
+		this.setTitle("Je ne crois pas qu'il y ait de bonne ou de maivaise situation, moi je crois que c'est avant tout des rencontres");
 		
 		this.addWindowListener(this);
 		this.add(vue);
