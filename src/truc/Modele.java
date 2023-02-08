@@ -18,6 +18,6 @@ public class Modele extends Observable {
 	public int tentative;
 	}	
 	public Modele() {
-
+		
 	}
 }
