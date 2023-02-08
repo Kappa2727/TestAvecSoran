@@ -27,6 +27,5 @@ public class Modele extends Observable {
 			this.combinaison.jeton[i]=tabcouleur[this.r.nextInt(this.tabcouleur.length)];
 		}
 		
-		
 	}
 }
